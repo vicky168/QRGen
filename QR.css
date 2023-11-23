@@ -1,17 +1,27 @@
-/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Quicksand:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family:'Hanalei+Fill',sans-serif;
     background-color: #f0f0f0;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/204/67/597/technics-design-technology-wallpaper-4970b8fda14acd6b5687d83f802146dd.jpg);
     margin: 0;
     padding: 0;
+}
+.txt{
+    color:#C0392B ;
 }
 
 .container {
     max-width: 400px;
-    margin: 50px auto;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    margin:  150px auto ;
+    background-color: transparent;
+    border:5px dashed grey ;
+    border-radius: 7px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -25,14 +35,16 @@ p {
 
 input[type="text"] {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding-left: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 4px dashed #C0392B ;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin:auto;
 }
 
 button {
-    background-color: #007BFF;
+    background-color:#34495E ;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -42,26 +54,33 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0071ff;
 }
 
-/* QR code image styles */
+
 #imgBox {
     margin-top: 20px;
+
 }
 
 #qrImage {
     max-width: 100%;
+    
 }
 
-/* Signature at the bottom */
+
 .signature {
     font-size: 14px;
     color: #888;
     margin-top: 30px;
-}
-
-/* Center align text */
-.center-text {
     text-align: center;
 }
+.kk{
+    width: 100px;
+    margin: auto;
+    
+}
+
+
+
+
