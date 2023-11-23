@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="./QR.css">
 </head>
 <body>
+    
     <div class="container">
-    <p>QR CODE-GENERATOR</p>
+        
+        <img src="./java-logo-1.png"  class="kk"  alt="">
+        <br>
+        <p class="txt">QR CODE-GENERATOR</p>
+
     <input type="text" placeholder="Enter the Text or URL Here" id="qrText">
     <div id="imgBox">
-        <img src="" id="qrImage">
+        <img src="" class="ll" id="qrImage">
     </div>
+    <br><br>
     <button onclick="generateQR()">Generate QR code</button>
+    
+
 
 </div>
     <script>
@@ -24,6 +32,7 @@
         function generateQR(){
                qrImage.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + qrText.value;
         }
+        
     </script>
     <div class="signature center-text">
         @vicky
