@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR-Generator</title>
+     <title>QR-Generator</title>
     <link rel="stylesheet" href="./QR.css">
 </head>
 <body>
@@ -20,20 +19,12 @@
     </div>
     <br><br>
     <button onclick="generateQR()">Generate QR code</button>
+    <button   id="downloadQR">Download QR </button>
+   
     
 
-
 </div>
-    <script>
-        let imgBox= document.getElementById("imgBox");
-        let qrImage= document.getElementById("qrImage");
-        let qrText= document.getElementById("qrText");
-
-        function generateQR(){
-               qrImage.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + qrText.value;
-        }
-        
-    </script>
+   <script src="./QR.js"></script>
     <div class="signature center-text">
         @vicky
     </div>
